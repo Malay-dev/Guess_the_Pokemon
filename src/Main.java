@@ -1,4 +1,4 @@
-package src;
+// package src;
 
 import java.awt.BorderLayout;
 import java.awt.Image;
@@ -48,15 +48,15 @@ public class Main extends JFrame implements ActionListener {
         guessPanel.setLayout(new BorderLayout());
 
         guessField = new JTextField();
-        
+
         // Create a panel for buttons
         JPanel buttonPanel = new JPanel();
         guessButton = new JButton("Guess");
         refreshButton = new JButton("New Pokémon");
-        
+
         guessButton.addActionListener(this);
         refreshButton.addActionListener(this);
-        
+
         buttonPanel.add(guessButton);
         buttonPanel.add(refreshButton);
 
